@@ -4,7 +4,7 @@
 
 ###### Router Methods
 
-```php
+```js
 Route::get($uri, $callback);
 Route::post($uri, $callback);
 Route::put($uri, $callback);
@@ -14,7 +14,7 @@ Route::options($uri, $callback);
 
 Route that responds to multiple HTTP verbs.
 
-```php
+```js
  Route::match(['get', 'post'], '/', function(){
     //
  });
